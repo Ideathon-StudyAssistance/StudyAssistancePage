@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    font-family:'GyeonggiBatang';
+}
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#header{
+    background-color:white;
+    height:15vh;
+    color:black;
+  }
+
+  .mainLogoImg{
+      height:60%;
+      margin:0.5%;
+      min-width:50px;
+      max-width:100px;
+  }
+
+  .container{
+    display:flex;
+    height:75vh;
+    text-align:center;
+  }
+
+  #left{
+    flex:1;
+    flex-basis:20%;
+    background-color:#7FD8DA;
+  }
+
+  #center{
+    flex:1;
+    flex-basis:75%;
+    background-color:#F5F5F5;
+    align-items:center;
+  }
+
+  #right{
+    flex:1;
+    flex-basis:20%;
+    background-color:#7FD8DA;
+  }
+  
+  #footer{
+    background-color:white;
+    height:10vh;
+    text-align:center;
+    color:black;
+  }

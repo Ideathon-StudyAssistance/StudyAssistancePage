@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    font-family:'GyeonggiBatang';
+}
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#header{height:10vh;}
+.container{
+    height:90vh;
+    display:flex;
+}
+#left, #right{flex:1; }
+#center{
+    flex:1;
+    width:40%;
+    border:1.5px solid #7FD8DA;
+    border-bottom:none;
+    border-radius:10px 10px 0 0;
+}
+#contents{
+    display:flex;
+    flex-direction:column;
+    margin:5%;padding:5%;
+    height:80%;
+    font-size:80%;
+}
+#top{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+#title{
+    font-size:180%;
+}
+#popupLine{ margin: 2% 0% 3% 0%;}
+
+.icons{width:5%; margin-right:3%;}
+.content{
+    margin-top:10%;
+    margin-left:5%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}

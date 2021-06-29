@@ -1,0 +1,91 @@
+body{margin:0;}
+#header{
+  height:5vh;
+}
+.mainLogoImg{
+    height:60%;
+    min-width:50px;
+    max-width:100px;
+    margin-left:5%;
+}
+.container{
+    display:flex;
+    height:80vh;
+    text-align:center;
+    background-color:white;
+}
+#left{
+   flex:1;
+   flex-basis:20%;
+   flex-direction:column;
+   display:flex;
+   justify-content:flex-start;
+   align-items:flex-start;
+   align-content:flex-start;
+   background-color:white;
+}
+#center{
+  display:flex;
+  flex-direction:column;
+  flex:1;
+  flex-basis:80%;
+  align-items:center;
+  justify-content:center;
+  background-color:white;
+
+}
+#calList{
+  margin:2%;
+    width:65%;height:70%;
+    border:1px solid #7FD8DA;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    overflow-y: scroll;
+    padding:3%;
+}
+.sharedList{
+  display:flex;
+  flex-direction:row;
+  width:90%;
+  margin:2%;
+}
+.list{
+  display:flex;
+  height:50%;
+  flex-direction:row;
+  padding:2%;
+  border:1px solid rgb(183, 183, 184);
+  border-radius:10px;
+  flex-grow:1;
+  justify-content:space-between;
+}
+.teamName{
+  width:70%;
+  display:flex;
+  align-items:center;
+ 
+}
+.modify{
+  display:flex;
+  align-items:center;
+}
+#right{
+  display:flex;
+  justify-content:flex-end;
+    flex:1;
+    flex-basis:20%;
+    background-color:white;
+}
+#menuButton{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  align-content:flex-end;
+}
+#footer{
+  padding:3%;
+    background-color:white;
+    height:15vh;
+    text-align:center;
+}

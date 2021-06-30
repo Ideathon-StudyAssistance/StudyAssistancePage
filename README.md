@@ -29,7 +29,7 @@
 ## [예빈]
 - [First Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/firstPage.html) <br>
 - [Login Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/loginPage.html) <br>
-- - [Shared Calendar List Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/sharedCalPage.html) <br>
+- [Shared Calendar List Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/sharedCalPage.html) <br>
 - [Popup Base Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/scheduleCalendarPopUp.html) <br>
 
 <br>

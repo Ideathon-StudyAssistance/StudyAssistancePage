@@ -13,12 +13,14 @@
 [Login Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/loginPage.html) <br>
 [Popup Base Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/scheduleCalendarPopUp.html) <br>
 
-- 레이아웃 변경 (헤더 없애기)
-- 로그인 창 flex 다시 적용
-- 메뉴/로그아웃 아이콘 오른쪽 끝에 붙게 조정
-- 로고- 메인 페이지로 연결하기
-- 팝업 페이지 나머지 만들기
-- 공유 캘린더 변경
+- [ ] 레이아웃 변경 (헤더 없애기)
+- [ ] 로그인 창 flex 다시 적용
+- [ ] 로그인 창 이미지 / 텍스트 
+- [ ] 메뉴/로그아웃 아이콘 오른쪽 끝에 붙게 조정
+- [ ] 로고- 메인 페이지로 연결하기
+- [ ] 팝업 페이지 나머지 만들기
+- [ ] 공유 캘린더 변경
+- [ ] 푸터 로고 - 이미지 / 텍스트
 
 
 

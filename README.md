@@ -3,7 +3,7 @@
 ## 통일해야 하는 부분
 - 페이지 레이아웃: left(25%) / center(50%) - footer(height: 7%) / right(25%) 
 - 이미지 형식 : svg 파일 사용
-- 메인 로고 : left space 부분에 width:40%, margin:20%
+- 메인 로고 : left space 부분에 width:40%, margin:20px
 
 
 <hr><br>

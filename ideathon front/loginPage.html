@@ -3,45 +3,51 @@
 <head>
     <meta charset="utf-8">
     <title>Login Page</title>
-    <link rel="stylesheet" type="text/css" href="base.css">
-    <link rel="stylesheet" type="text/css" href="loginPage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/loginPage.css">
 </head>
 <body>
-    <div id="header">
-        <img class="mainLogoImg" src="mainLogo.svg" height="70%">
-    </div>
-    <div class="container">
-    <div id="left">Left</div>
+   <div class="container">
+        <div id="left"></div>
 
-    <div id="center">
-        <div id="login">
-            <div id="welcomeLoginBox">
-                <img src="welcomeText.svg" width="70%">
-            </div>
-            <div id="loginBox">
-                <div id="loginText">로그인</div>
-                    <div id="inputBttn">
-                        <div id="loginInput">
-                           <input class="inputIDPW" type="text" name="id" placeholder="아이디를 입력하세요"> 
-                            <input class="inputIDPW" type="password" name="pw" placeholder="비밀번호를 입력하세요">
+        <div id="center">
+            <div id="login">
+                <div id="welcomeLoginBox">
+                    <img id="welcomeText" src="img/welcomeText.svg">
+                </div>
+                <div id="loginBox">
+                    <div id="loginHeader"></div>
+                    <div id="loginCenter">
+                        <div id="loginText">로그인</div>
+                        <div id="inputBttn">
+                            <div id="loginInput">
+                                <input class="inputIDPW" type="text" name="id" placeholder="아이디를 입력하세요"> 
+                                <input class="inputIDPW" type="password" name="pw" placeholder="비밀번호를 입력하세요">
+                            </div>
+                            <button type="submit" id="loginButton" name="login" onclick="location.href='main.html'"> 로그인</button>
                         </div>
-                        <div id="loginButton"> <a id="loginBtnText" href="#">로그인</a> </div>
+                        <div id="belowLogin">
+                            <div id="keepLogin">
+                                <input id="keepCheckbox" type="checkbox" name="keepLogIn"> 로그인상태유지
+                            </div>
+                            <div id="signup_idPW">
+                                <div id="signUp"> <a class="linkStyle" href="#"> 회원가입 </a></div>
+                                <div id="findIDPW"> <a class="linkStyle" href="#"> 아이디/비밀번호 찾기 </a></div>
+                            </div>
+                        </div>
                     </div>
-                    <div id="belowLogin">
-                        <div id="keepLogin">
-                            <input type="checkbox" name="keepLogIn"> 로그인상태유지
-                        </div>
-                        <div id="signup_idPW">
-                            <div id="signUp"> <a href="#"> 회원가입 </a></div>
-                            <div id="findIDPW"> <a href="#"> 아이디/비밀번호 찾기 </a></div>
-                        </div>
-                    </div> 
-                    <img id="loginChar" src="loginChar.svg" width="40%">
+                    <div id="loginFooter">
+                        <img id="loginChar" src="img/loginChar.svg" width="40%">
+                    </div>
+                </div>
             </div>
         </div>
+        <div id="right"></div>
     </div>
-    <div id="right">Right</div>
+    <div id="footer">
+        <img src="img/footerLogo.svg">
+        <div id="copyright"> ⓒ 2021. 일개미 All rights reserved.</div>    
     </div>
-    <div id="footer">Footer</div>
 </body>
 </html>

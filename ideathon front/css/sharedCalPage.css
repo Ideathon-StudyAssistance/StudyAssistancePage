@@ -1,0 +1,48 @@
+#center{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+}
+#calList{
+  width:100%;height:60%;
+  margin-top:3%;padding:3% 0%;
+  border:1px solid #7FD8DA;
+  border-radius:10px;
+  display:flex;
+  flex-direction:column;
+  overflow-y: scroll;
+}
+.sharedList{
+  display:flex;
+  flex-direction:row;
+  width:90%;
+  margin:2%;
+}
+.list{
+  display:flex;
+  height:50%;
+  flex-direction:row;
+  padding:2%;
+  border:1px solid rgb(183, 183, 184);
+  border-radius:10px;
+  flex-grow:1;
+  justify-content:space-between;
+}
+.teamName{
+  width:70%;
+  display:flex;
+  align-items:center;
+}
+.modify{
+  display:flex;
+  align-items:center;
+}
+#menuButton{
+  margin-top:12%;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+}
+#menuLogo{width:70%;}
+#logoutLogo{width:45%;}

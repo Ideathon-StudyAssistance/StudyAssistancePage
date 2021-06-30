@@ -2,6 +2,7 @@
 
 - [First Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/firstPage.html) 
 - [Login Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/loginPage.html) 
+- [Shared Calendar List Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/sharedCalPage.html)
 - [Popup Base Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/scheduleCalendarPopUp.html) 
 - [Schedule Calendar Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/%EB%B0%95%EC%8B%9C%EC%97%B0%20%ED%8C%8C%ED%8A%B8/ScheduleCalendar.html) 
 - [Share Calendar Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/%EB%B0%95%EC%8B%9C%EC%97%B0%20%ED%8C%8C%ED%8A%B8/ShareCalendar.html) 
@@ -28,6 +29,7 @@
 ## [예빈]
 - [First Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/firstPage.html) <br>
 - [Login Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/loginPage.html) <br>
+- - [Shared Calendar List Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/sharedCalPage.html) <br>
 - [Popup Base Page](https://Ideathon-StudyAssistance.github.io/StudyAssistancePage/ideathon%20front/scheduleCalendarPopUp.html) <br>
 
 <br>

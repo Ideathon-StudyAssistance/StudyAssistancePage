@@ -1,13 +1,34 @@
 #center{
   display:flex;
   flex-direction:column;
-  align-items:flex-start;
+  align-items:center;
   justify-content:center;
 }
+#calListText{
+  display:flex;
+  width:90%;
+  font-weight:Bold;
+  justify-content:flex-start;
+}
+#addCal{
+  display:flex;
+  width:90%;
+  justify-content:flex-end;
+  margin-bottom:2%;
+}
+#addButton{
+  padding:0.5%;
+  display:flex;
+  align-items:center;
+  border:1px solid rgb(170, 170, 170);
+  box-shadow:1px 1px #9df2f3;
+  background-color:#7FD8DA;
+  border-radius:3px;
+}
 #calList{
-  width:100%;height:60%;
-  margin-top:3%;padding:3% 0%;
-  border:1px solid #7FD8DA;
+  width:85%;height:50%;
+  padding:3%;
+  border:1.5px solid #7FD8DA;
   border-radius:10px;
   display:flex;
   flex-direction:column;
@@ -16,21 +37,25 @@
 .sharedList{
   display:flex;
   flex-direction:row;
-  width:90%;
-  margin:2%;
+  width:95%;
+}
+.char{
+  margin-left:3%;
+  min-width:100px;
 }
 .list{
   display:flex;
+  flex-grow:1;
+  min-width:300px;
+  padding:1%;
   height:50%;
   flex-direction:row;
-  padding:2%;
   border:1px solid rgb(183, 183, 184);
   border-radius:10px;
-  flex-grow:1;
+  box-shadow:1px 1px #9df2f3;
   justify-content:space-between;
 }
 .teamName{
-  width:70%;
   display:flex;
   align-items:center;
 }

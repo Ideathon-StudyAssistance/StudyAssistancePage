@@ -41,27 +41,31 @@
 
 
 /* left(25%)-center(50%), footer(height:7%), right(50%) */
-
+body{
+  display:flex;
+  margin:0;
+}
 .mainLogoImg{
   width:40%;
   margin:20px;
 }
 .container{
   display:flex;
-  flex-direction:row;
-  height:93vh;
-  text-align:center;
+  flex-basis:50%;
+  flex-direction:column;
+  justify-content:center;
 }
 #left, #right{
-  display:flex;flex-direction:column;
-  width:25%;
+  flex-basis:25%;
+  height:100vh;
 }
 #left{align-items:flex-start;}
 #right{align-items:flex-end;}
 #center{
+  flex-basis:93%;
   align-content:center;
-  width:50%;
   align-items:center;
+  text-align:center;
 }
 #footer{
   display:flex;
@@ -69,7 +73,6 @@
   align-items:center;
   font-size:15%;
   background-color:white;
-  height:7%;
   text-align:center;
   color:black;
 }
